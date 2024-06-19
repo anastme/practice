@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тест Настя Рожина</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  .container { width: 80%; margin: auto; }
+  .question { margin-bottom: 20px; }
+  .options { margin-bottom: 20px; }
+  .option { margin-bottom: 10px; }
+  .button { display: block; margin-top: 20px; }
+  .counter { margin-bottom: 20px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="counter">Вопрос <span id="questionNumber">1</span> из 10</div>
+  <div class="question">Здесь будет вопрос?</div>
+  <div class="options">
+    <!-- Варианты ответов будут здесь -->
+    <label class="option"><input type="radio" name="option"> Вариант 1</label>
+    <label class="option"><input type="radio" name="option"> Вариант 2</label>
+    <label class="option"><input type="radio" name="option"> Вариант 3</label>
+    <label class="option"><input type="radio" name="option"> Вариант 4</label>
+  </div>
+  <button class="button" onclick="nextQuestion()">Следующий вопрос</button>
+</div>
+<script>
+// JavaScript для управления логикой теста будет здесь
+function nextQuestion() {
+  // Логика перехода к следующему вопросу
+}
+</script>
+</body>
+</html>
